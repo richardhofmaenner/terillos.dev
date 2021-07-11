@@ -19,7 +19,7 @@ jobs:
         name: Login to docker
         with:
           username: 'richardhofmaenner'
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
       - name: Build and push
         uses: docker/build-push-action@v2
