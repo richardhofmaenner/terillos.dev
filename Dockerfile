@@ -4,8 +4,7 @@ COPY . .
 
 RUN yarn install
 
-RUN yarn css:build
-RUN yarn next:build
+RUN yarn build
 
 # Production image, copy all the files and run next
 FROM node:alpine
