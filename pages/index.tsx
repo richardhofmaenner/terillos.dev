@@ -21,8 +21,8 @@ export default function Home() {
             <div className="my-10 block">
               <Image src="/images/profile.jpg" alt="Profile Image Richard" width={200} height={200} className="rounded-full w-2/12" />
             </div>
-            <h1 className="mb-5">Richard Hofmänner</h1>
-            <h2 className="mb-10">Full Stack Developer</h2>
+            <h1>Richard Hofmänner</h1>
+            <h2>Full Stack Developer</h2>
           </section>
           <section className="text-center">
             <Line />
