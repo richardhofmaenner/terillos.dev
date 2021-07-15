@@ -1,11 +1,15 @@
 import PageLayout from "@/layouts/pageLayout";
 import Link from 'next/link';
+import Head from 'next/head';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 
 function Imprint() {
   return (
     <PageLayout>
+      <Head>
+        <title>Privacy Policy | terillos.dev</title>
+      </Head>
       <section className="mb-10">
         <Link href="/"><a><FontAwesomeIcon icon={faArrowLeft} /> Back Home</a></Link>
       </section>
