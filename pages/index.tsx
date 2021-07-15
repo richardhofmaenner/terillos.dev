@@ -13,7 +13,6 @@ export default function Home() {
     <>
       <Head>
         <title>Home | terillos.dev</title>
-        <meta name="description" content="The digital business card of Richard Hofmänner / terillos." />
       </Head>
       <div className="min-h-screen flex items-center justify-center">
         <main className="w-10/12 sm:w-8/12 lg:w-6/12 xl:w-4/12">
