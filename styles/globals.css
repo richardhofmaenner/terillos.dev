@@ -11,8 +11,14 @@ body {
 h1 {
     @apply text-lg lg:text-xl;
     @apply font-semibold;
+    @apply mb-5;
 }
 
 h2 {
     @apply text-base lg:text-lg;
+    @apply mb-10;
+}
+
+p {
+    @apply mb-5;
 }
